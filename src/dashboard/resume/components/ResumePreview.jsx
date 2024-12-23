@@ -16,9 +16,9 @@ function ResumePreview() {
         borderColor:resumeInfo?.themeColor
        // borderColor:resumeInfo?.themeColor
     }}>
-        {/* Personal Detail  */}
+        {/* 
             {resumeInfo?.experience?.length>0? <PersonalDetailPreview resumeInfo={resumeInfo} />:<></>}
-        {/* Summery 
+        
             {resumeInfo?.summery ? <SummeryPreview resumeInfo={resumeInfo} />:<></>}
         
            {resumeInfo?.experience?.length>0 ? <ExperiencePreview resumeInfo={resumeInfo} />:<></>}
