@@ -18,5 +18,8 @@ export default defineConfig({
     VITE_BASE_URL2: 'https://crea8cv-v2-5lmo.vercel.app',
     VITE_API_BASE_URL2: 'http://localhost:8080'
   },
+  build: {
+    minify: false
+  }
   /*   server: { port: 3001, }, */
 })
